@@ -2,7 +2,7 @@
 
 ## Introduction
 This is a rendering engine especially aimed for Non-Uniform Rational B-Spline data.
-The project is adapted from the master thesis[thesis.pdf] of Xin Xu.
+The project is adapted from the [master thesis](thesis.pdf) of Xin Xu.
 
 ## Environment Setup
 1. `sudo apt install cmake`
