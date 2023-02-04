@@ -10,7 +10,13 @@ enable_testing()
 
 add_executable(${PROJECT_NAME} 
                src/main.cpp
-               src/CIntersectionList.cpp)
+               src/CDetector.cpp
+               src/CError.cpp
+               src/CIntersection.cpp
+               src/CIntersectionList.cpp
+               src/CNurbs.cpp
+               src/CPhantom.cpp
+               src/CRayTracer.cpp)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/inc ${OPTIX_INCLUDE_DIR})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

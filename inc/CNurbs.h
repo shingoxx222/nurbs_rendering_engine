@@ -3,7 +3,6 @@
 
 #include <vector>
 #include "vector_types.h"
-#include <optixu/optixu_math_namespace.h>
 using namespace std;
 
 class CNurbs {
